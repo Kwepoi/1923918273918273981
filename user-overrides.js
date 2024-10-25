@@ -35,3 +35,18 @@ user_pref("browser.tabs.firefox-view.notify-for-tabs", false);
 user_pref("browser.firefox-view.feature-tour", "");
 user_pref("browser.tabs.firefox-view.logLevel", "Off");
 user_pref("services.sync.prefs.sync.browser.firefox-view.feature-tour", false);
+
+// Browser aesthetic integrations
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("browser.compactmode.show", true);
+user_pref("browser.toolbars.bookmarks.visibility", "never");
+user_pref("browser.uidensity", 1);
+user_pref("browser.download.autohideButton", false);
+user_pref("ui.key.menuAccessKeyFocuses", false);
+user_pref("ui.key.menuAccessKey", 0);
+
+// Enhances
+user_pref("browser.startup.page", 3);
+user_pref("browser.sessionstore.resume_from_crash", true);
+user_pref("browser.sessionstore.max_resumed_crashes", 2);
+user_pref("browser.sessionstore.restore_pinned_tabs_on_demand", true);

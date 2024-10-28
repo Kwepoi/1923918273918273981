@@ -36,6 +36,29 @@ user_pref("browser.firefox-view.feature-tour", "");
 user_pref("browser.tabs.firefox-view.logLevel", "Off");
 user_pref("services.sync.prefs.sync.browser.firefox-view.feature-tour", false);
 
+// Disable Fxaccounts
+user_pref("browser.newtabpage.activity-stream.fxaccounts.endpoint", "");
+user_pref("identity.fxaccounts.auth.uri", "");
+user_pref("identity.fxaccounts.autoconfig.uri", "");
+user_pref("identity.fxaccounts.commands.missed.fetch_interval", 0);
+user_pref("identity.fxaccounts.commands.remoteTabManagement.enabled", false);
+user_pref("identity.fxaccounts.contextParam", "");
+user_pref("identity.fxaccounts.enabled", false);
+user_pref("identity.fxaccounts.migrateToDevEdition", false);
+user_pref("identity.fxaccounts.oauth.enabled", false);
+user_pref("identity.fxaccounts.pairing.enabled", false);
+user_pref("identity.fxaccounts.remote.oauth.uri", "");
+user_pref("identity.fxaccounts.remote.pairing.uri", "");
+user_pref("identity.fxaccounts.remote.profile.uri", "");
+user_pref("identity.fxaccounts.remote.root", "");
+user_pref("identity.fxaccounts.toolbar.accessed", false);
+user_pref("identity.fxaccounts.toolbar.defaultVisible", false);
+user_pref("identity.fxaccounts.toolbar.enabled", false);
+user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled", false);
+user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.monitorEnabled", false);
+user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.relayEnabled", false);
+user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.vpnEnabled", false);
+
 // Browser aesthetic integrations
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.compactmode.show", true);

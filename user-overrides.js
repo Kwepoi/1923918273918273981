@@ -1,3 +1,5 @@
+/* Overrides */
+
 // Disable Pocket core functionality
 user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.pocket.api", "");

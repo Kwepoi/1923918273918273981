@@ -51,5 +51,7 @@ user_pref("browser.sessionstore.resume_from_crash", true);
 user_pref("browser.sessionstore.max_resumed_crashes", 2);
 user_pref("browser.sessionstore.restore_pinned_tabs_on_demand", true);
 
-// Safety additions
+// Safety considerations
 user_pref("app.update.auto", false);
+user_pref("security.sandbox.gpu.level", 1);
+user_pref("security.sandbox.content.level", 4);

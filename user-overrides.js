@@ -1,3 +1,4 @@
+
 /* Overrides */
 
 // Disable Pocket core functionality
@@ -75,6 +76,7 @@ user_pref("browser.startup.page", 3);
 user_pref("browser.sessionstore.resume_from_crash", true);
 user_pref("browser.sessionstore.max_resumed_crashes", 2);
 user_pref("browser.sessionstore.restore_pinned_tabs_on_demand", true);
+user_pref("image.jxl.enabled", true);
 
 // Safety considerations
 user_pref("app.update.auto", false);

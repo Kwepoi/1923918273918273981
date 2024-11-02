@@ -58,6 +58,3 @@ toolbarbutton.bookmark-item:not(.subviewbutton){
   margin: 0px !important;
   padding-block: 0 !important;
 }
-
-/*************************************** Remove Bookmarks Star *******************************************************/
-#star-button-box {display: none !important;}

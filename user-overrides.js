@@ -82,3 +82,4 @@ user_pref("image.jxl.enabled", true);
 user_pref("app.update.auto", false);
 user_pref("security.sandbox.gpu.level", 1);
 user_pref("security.sandbox.content.level", 4);
+user_pref("extensions.update.enabled", false);

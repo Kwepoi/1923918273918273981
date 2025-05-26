@@ -61,6 +61,7 @@ user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled", false);
 user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.monitorEnabled", false);
 user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.relayEnabled", false);
 user_pref("identity.fxaccounts.toolbar.pxiToolbarEnabled.vpnEnabled", false);
+user_pref("identity.fxaccounts.telemetry.clientAssociationPing.enabled", false);
 
 // Browser aesthetic integrations
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
@@ -83,3 +84,7 @@ user_pref("app.update.auto", false);
 user_pref("security.sandbox.gpu.level", 1);
 user_pref("security.sandbox.content.level", 4);
 user_pref("extensions.update.enabled", false);
+user_pref("extensions.update.autoUpdateDefault", false);
+user_pref("extensions.update.url", "");
+user_pref("extensions.update.background.url", "");
+user_pref("services.sync.prefs.sync.extensions.update.enabled", false);
